@@ -15,6 +15,7 @@ const game = new Phaser.Game(config);
 let graphics;
 let path
 let ENEMY_SPEED = 1/10000;
+let time;
 
 function preload() {
   // load the game assets - enemy and turret atlas
